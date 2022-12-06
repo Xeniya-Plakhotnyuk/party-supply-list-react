@@ -1,0 +1,1 @@
+# party-supply-list-react
