@@ -45,7 +45,7 @@ export class List extends Component {
             onChange={(e) => this.onChangeEvent(e.target.value)}
             value={this.state.userInput}
           />
-          <button className = "animate__animated animate__backInUp add"
+          <button className = "animate__animated animate__backInUp__delay-2s add"
             onClick={() => this.addItem(this.state.userInput)}
                       >
             ADD
@@ -59,7 +59,7 @@ export class List extends Component {
               </li>
             ))}
           </ul>
-          <button onClick={() => this.deleteItem()} className="animate__animated animate__backInUp del">
+          <button onClick={() => this.deleteItem()} className="animate__animated animate__backInUp__delay-2s del">
             CLEAR
           </button>
         </div>
