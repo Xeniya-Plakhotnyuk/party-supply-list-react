@@ -66,14 +66,13 @@ li {
 .crossed {
   text-decoration: line-through #A12568 2px;
   background: #3B185F;
-  animation:  flip; 
-  animation-duration: .5s; 
+  animation: flip;
+  animation-duration: .5s;
 
 }
 
 button {
   min-width: 70%;
-  /* margin: 7px 0; */
   align-self: center;
 }
 
