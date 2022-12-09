@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="app">
       <img src={party} width="250px" alt="shopping cart" />
-      <h1 class="animate__animated animate__heartBeat" >PARTY<br></br>supply list  </h1>
+      <h1 class="animate__animated animate__heartBeat__delay-2s" >PARTY<br></br>supply list  </h1>
             <List />
     </div>
   );
